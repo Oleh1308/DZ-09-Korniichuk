@@ -1,0 +1,129 @@
+@import url(reset.css);
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open_sans/OpenSans-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open_sans/OpenSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+/* MEBU.HTML */
+.header-menu {
+    background: firebrick;
+    padding: 20px 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 50px;
+    font-family: 'Inter' ;
+    
+    
+}
+.header-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(241, 176, 187);
+    padding: 10px 20px;
+    background: black;
+    border-radius: 6px;
+    border: 1px solid black;
+    display: block;
+    
+}
+.header-list li{
+    position: relative;
+}
+.header-list li:hover .header-homework-list{
+    display: block;
+
+}
+.header-homework-list{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;     
+    padding-top: 20px;
+    font-family: 'Inter'
+    
+    
+
+    
+}
+.header-homework-list li{
+    position: relative;
+}
+.header-homework-list a{
+    background: pink;
+    color: black;
+}
+.header-homework-list li:hover .flex-list {
+    display: block;
+}
+
+.flex-list {
+    position: absolute;
+    top: 0;
+    right: 150px;
+    width: 100%;
+    display: none;
+    font-family: 'Open Sans'
+    
+}
+
+.flex-list a {
+    background: black;
+    color: pink;
+}
+
+
+
+
+
+
+
+    
